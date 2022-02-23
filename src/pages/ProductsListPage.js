@@ -8,7 +8,6 @@ const ProductsListPage = () => {
 
 	const list = products.map(product => (
 		<li key={product}><NavLink to={`/products/${product}`} >{product}</NavLink></li>
-
 	))
 
 	return (
