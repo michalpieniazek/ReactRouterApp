@@ -6,7 +6,7 @@ const permission = true
 const AdminPage = () => {
 	return (
 		<>
-			{permission ? (<h3>Witaj w panelu Admina</h3>) : (<Navigate to='/login' />)}
+			{permission ? (<h3>Witaj w panelu</h3>) : (<Navigate to='/login' />)}
 		</>
 	)
 }

@@ -18,6 +18,7 @@ const ProductsListPage = () => {
 			</div>
 			<Outlet />
 		</>
+
 	)
 }
 
